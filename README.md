@@ -3,7 +3,7 @@
 * Attack Machine: ```10.38.1.111```
 * Victim Machine: ```10.38.1.110```
 
-> Note: PCAP files are available via Google Drive download links, if you've taken an interest in this project and would like to do some analysis yourself. The PCAP file does not have any generated traffic, and there isn't a lot of investigation behind it. However, this demonstrates traffic specifically from a SSH brute force attack.
+> Note: PCAP file is available in this repository, if you've taken an interest in this project and would like to do some analysis yourself. The PCAP file does not have any generated traffic, and there isn't a lot of investigation behind it. However, this demonstrates traffic specifically from a SSH brute force attack.
 # tcpdump
 
 We specify tcpdump to write the capture information to ```/home/vagrant/ssh_cap``` on the eth0 interface and specify verbose output in the Metasploitable3 machine.
@@ -12,7 +12,7 @@ We specify tcpdump to write the capture information to ```/home/vagrant/ssh_cap`
 
 # Exploitation
 
-```bash
+```console
 parrot@attackbox$ 
 parrot@attackbox$ 
 parrot@attackbox$ ping 10.38.1.110 # Threw in some ICMP traffic.
