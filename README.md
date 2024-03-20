@@ -75,7 +75,7 @@ vagrant@metasploitable3-ub1404:~$ touch SSH_DONE.TXT.COMPLETE
 
 After completing the exploitation and packet capture, we can move the PCAP via ```scp``` command.
 
-![[Pasted image 20240319001217.png]]
+<img src="https://i.postimg.cc/J7bJXLkm/image.png">
 
 # Analyzing The PCAP
 
